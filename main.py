@@ -120,4 +120,5 @@ if existing_selected:
     for i, filename in enumerate(existing_selected):
         with cols2[i % 4]:
             img_path = os.path.join(output_folder, filename)
-            st.image(img_path, caption=filename, width="stretch")
+            if os.path.exists(img_path):
+                st.image(img_path, caption=filename, width="stretch")
