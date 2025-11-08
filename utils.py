@@ -13,7 +13,7 @@ class Utils:
         self.OUTPUT_FOLDER = OUTPUT_FOLDER
 
     def setup_styles(self):
-        st.set_page_config(page_title="انتخاب عکس‌ها")
+        st.set_page_config(page_title="ILookup")
 
         st.markdown(
             """
