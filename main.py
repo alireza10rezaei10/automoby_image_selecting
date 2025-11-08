@@ -6,7 +6,7 @@ from utils import Utils
 MAX_IMAGES_IN_A_ROW = 3
 
 BASE_DIR = Path(__file__).resolve().parent
-CSV_PATH = BASE_DIR / "data.csv"
+CSV_PATH = BASE_DIR / "data" / "data.csv"
 INPUT_FOLDERS = [BASE_DIR / "crawled_images", BASE_DIR / "gandomi_images"]
 OUTPUT_FOLDER = BASE_DIR / "selected_images"
 OUTPUT_FOLDER.mkdir(exist_ok=True)
